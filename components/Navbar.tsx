@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Canvas } from "@react-three/fiber";
 import { BlackHole } from "./BlackHole";
 
+
 export function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center">
@@ -40,8 +41,9 @@ function Navbar({ className }: { className?: string }) {
             <BlackHole rotation={[0.1, 4.7077, 0.01]} />
           </Suspense>
         </Canvas>
+
       </div>
-      <div className="flex justify-center -mt-28 items-center">
+      <div className="flex justify-center -mt-24 items-center">
         <Menu setActive={setActive}>
           <MenuItem
             setActive={setActive}
