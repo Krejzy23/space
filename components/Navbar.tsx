@@ -20,9 +20,9 @@ function Navbar({ className }: { className?: string }) {
 
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed top-5 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
-      <div className="w-full h-[40rem] -mt-52">
+      <div className="w-full h-[40rem] -mt-56">
         <Canvas
           className="w-full min-h-fit bg-transparent"
           camera={{ near: 0.1, far: 1000 }}
@@ -37,11 +37,11 @@ function Navbar({ className }: { className?: string }) {
               penumbra={1}
               intensity={2}
             />
-            <BlackHole rotation={[0.1, 4.7077, 0]} />
+            <BlackHole rotation={[0.1, 4.7077, 0.01]} />
           </Suspense>
         </Canvas>
       </div>
-      <div className="">
+      <div className="flex justify-center -mt-28 items-center">
         <Menu setActive={setActive}>
           <MenuItem
             setActive={setActive}
@@ -56,7 +56,12 @@ function Navbar({ className }: { className?: string }) {
           <MenuItem
             setActive={setActive}
             active={active}
-            item="Facts"
+            item="Features"
+          ></MenuItem>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="Promo"
           ></MenuItem>
         </Menu>
       </div>
