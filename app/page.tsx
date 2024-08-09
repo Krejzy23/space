@@ -6,35 +6,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col justify-center items-center overflow-hidden mx-auto bg-black text-white">
-      <div className="max-w-7xl w-full">
+    <main className="relative flex flex-col justify-center items-center overflow-hidden mx-auto bg-[#030014] text-white">
+      <div className="h-full w-full">
         <NavbarDemo />
         <Hero />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+
       </div>
 
     </main>
