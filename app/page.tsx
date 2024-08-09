@@ -2,6 +2,7 @@
 
 import Hero from "@/components/Hero";
 import { NavbarDemo } from "@/components/Navbar";
+import {BentoGridDemo} from "@/components/Explore";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="h-full w-full">
         <NavbarDemo />
         <Hero />
+        <BentoGridDemo />
 
       </div>
 
