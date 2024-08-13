@@ -21,7 +21,7 @@ const Features = () => {
               penumbra={1}
               intensity={2}
             />
-            <BlackHole />
+            <BlackHole/>
           </Suspense>
         </Canvas>
       </div>

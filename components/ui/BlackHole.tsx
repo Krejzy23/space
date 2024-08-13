@@ -55,9 +55,9 @@ export function BlackHole(props: JSX.IntrinsicElements["group"]) {
   }, [actions]);
 
   const [rotation, setRotation] = useState<[number, number, number]>([
-    -Math.PI / 2,
-    0,
-    0,
+    0.1,
+    4.7077,
+    0.01,
   ]);
 
   const [isDragging, setIsDragging] = useState(false);

@@ -13,7 +13,7 @@ import {
 
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-5xl mx-auto">
+    <BentoGrid className="max-w-3xl mx-auto">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -24,8 +24,8 @@ export function BentoGridDemo() {
               src={`/images/${item.image}`}
               alt={item.title}
               layout="responsive"
-              width={1200} // Můžete upravit podle velikosti, kterou potřebujete
-              height={1200} // Můžete upravit podle velikosti, kterou potřebujete
+              width={600} // Můžete upravit podle velikosti, kterou potřebujete
+              height={600} // Můžete upravit podle velikosti, kterou potřebujete
               className="rounded-xl overflow-hidden"
             />
           }
