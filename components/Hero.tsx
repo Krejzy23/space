@@ -17,8 +17,8 @@ const Hero = () => {
       </video>
       <div className="h-[60rem] rounded-md bg-transparent flex flex-col items-center justify-center relative w-full z-50">
         <div className="flex justify-center items-center z-10">
-          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-purple-600 via-blue-400 to-blue-200">
-            Build amazing websites <br /> at <Cover>warp speed</Cover>
+          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 ">
+            Build  <span className="bg-clip-text text-transparent bg-gradient-to-b from-purple-600 via-blue-400 to-blue-200">amazing</span> websites <br /> at <Cover>warp speed</Cover>
           </h1>
         </div>
         {/* <StarsBackground />
